@@ -15,7 +15,10 @@ wget -O- https://www.rabbitmq.com/rabbitmq-release-signing-key.asc | sudo apt-ke
 sudo apt-get update
 sudo apt-get install rabbitmq-server -y
 
+sudo rabbitmq-plugins enable rabbitmq_management
 
+sudo rabbitmqctl add_user glpi glpi
+sudo rabbitmqctl set_user_tags glpi administrator
+sudo rabbitmqctl set_permissions -p / glpi ".*" ".*" ".*"
 
-
-
+sudo /etc/init.d/rabbitmq-server restart
