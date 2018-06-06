@@ -50,12 +50,11 @@ function plugin_item_update_rmqsolution($item) {
    //$solution = strip_tags($item->fields['solution']);
    $solution = $item->fields['solution'];
    
-   Session::addMessageAfterRedirect(sprintf(__("Updated solution: (%s)", 'rmqsolution'), $solution), true);	
+//   Session::addMessageAfterRedirect(sprintf(__("Updated solution: (%s)", 'rmqsolution'), $solution), true);	
 
 	//Check if Status was updated
    if(in_array('status',$item->updates) && $item->fields['status'] == 5) {
-   	   Session::addMessageAfterRedirect(sprintf(__("Updated AWEO: (%s)", 'rmqsolution'), implode(',', $item->updates)), true);
-   	   connect_and_send($device_name,$user->getRawName(),$item->fields['id'],$type,$solution);
+   		connect_and_send($device_name,$user->getRawName(),$item->fields['id'],$type,$solution);
  	}	
 
    return true;
