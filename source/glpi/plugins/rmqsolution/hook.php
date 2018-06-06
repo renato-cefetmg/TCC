@@ -42,34 +42,27 @@ function plugin_item_update_rmqsolution($item) {
 
   $tags = array('<p>','</p>');
 
-  // Session::addMessageAfterRedirect(sprintf(__("Update Computer Hook (%s)", 'rmqsolution'), var_export($item,true)), true);
-
-
-   Session::addMessageAfterRedirect(sprintf(__("Update Computer Hook (%s)", 'rmqsolution'), implode(',', $item->updates)), true);
-
-
-   //Check if Status was updated
-   if(in_array('status',$item->updates)) {
-   	   Session::addMessageAfterRedirect(sprintf(__("Updated Status: (%s)", 'rmqsolution'), implode(',', $item->updates)), true);
-
- 	}	
-
-   Session::addMessageAfterRedirect(sprintf(__("Update Computer Hook (%s)", 'rmqsolution'), implode(',', $item->updates)), true);
-
-
-   $solution = str_replace($tags,'',$item->fields['solution']);
-   Session::addMessageAfterRedirect(sprintf(__("Solution = %s", 'rmqsolution'), $solution), true);
-   Session::addMessageAfterRedirect(sprintf(__("Status = %s", 'rmqsolution'), $item->fields['status']), true);
    $user = new User();
    $user->getFromDB($item->fields['users_id_lastupdater']);
-   Session::addMessageAfterRedirect(sprintf(__("Last Updater = %s", 'rmqsolution'), $user->getRawName()), true);
-   Session::addMessageAfterRedirect(sprintf(__("Name = %s", 'rmqsolution'), $item->fields['name']), true);
-   Session::addMessageAfterRedirect(sprintf(__("ID = %s", 'rmqsolution'), $item->fields['id']), true);
+
+   $type = trim(explode('-',$item->fields['name'])[0]);
+   $device_name = trim(explode('-',$item->fields['name'])[1]);
+   //$solution = strip_tags($item->fields['solution']);
+   $solution = $item->fields['solution'];
+   
+   Session::addMessageAfterRedirect(sprintf(__("Updated solution: (%s)", 'rmqsolution'), $solution), true);	
+
+	//Check if Status was updated
+   if(in_array('status',$item->updates) && $item->fields['status'] == 5) {
+   	   Session::addMessageAfterRedirect(sprintf(__("Updated AWEO: (%s)", 'rmqsolution'), implode(',', $item->updates)), true);
+   	   connect_and_send($device_name,$user->getRawName(),$item->fields['id'],$type,$solution);
+ 	}	
+
    return true;
 }
 
 
-function connect_and_send($device_name,$operator,$ticket_id,$type) {
+function connect_and_send($device_name,$operator,$ticket_id,$type,$solution) {
 
 	$exchange = 'glpi';
 
@@ -81,9 +74,11 @@ function connect_and_send($device_name,$operator,$ticket_id,$type) {
 
 	//This Should be parameterized...
 	//AMQPStreamConnection(HOST, PORT, USER, PASS, VHOST);
-	$connection = new AMQPStreamConnection("192.168.56.1", 5672, 'glpi', 'glpi', '/');
+	$connection = new AMQPStreamConnection("192.168.56.101", 5672, 'glpi', 'glpi', '/');
 
 	$channel = $connection->channel();
+
+	$channel->exchange_declare($exchange, 'direct', false, true, false);
 
 	foreach ($queues as $queue){
 		/*
@@ -100,9 +95,8 @@ function connect_and_send($device_name,$operator,$ticket_id,$type) {
 
 	
 
-	$message = new AMQPMessage("",array('content_type' => 'text/plain', 'delivery_mode' => AMQPMessage::DELIVERY_MODE_PERSISTENT));
-
-   $headers = new AMQPTable();
+	$message = new AMQPMessage($solution,array('content_type' => 'text/plain', 'delivery_mode' => AMQPMessage::DELIVERY_MODE_PERSISTENT));
+  	$headers = new AMQPTable();
 	$headers->set('device_name',$device_name,AMQPTable::T_STRING_LONG);
 	$headers->set('timestamp',date('d/m/o - G:i:s'),AMQPTable::T_STRING_LONG);	
 	$headers->set('operator',$operator,AMQPTable::T_STRING_LONG);
