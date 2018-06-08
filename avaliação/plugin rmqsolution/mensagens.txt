@@ -1,0 +1,43 @@
+Message 1
+
+The server reported 1 messages remaining.
+Exchange 	glpi
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device | SSH
+operator:	glpi
+ticket_id:	2
+timestamp:	07/06/2018 - 23:07:28
+type:	SERVICE
+content_type:	text/plain
+Payload
+42 bytes
+Encoding: string
+	
+
+&lt;p&gt;Teste Solução SERVICE&lt;/p&gt;
+
+Message 2
+
+The server reported 0 messages remaining.
+Exchange 	glpi
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+operator:	glpi
+ticket_id:	1
+timestamp:	07/06/2018 - 23:08:49
+type:	HOST
+content_type:	text/plain
+Payload
+43 bytes
+Encoding: string
+	
+
+&lt;p&gt;Teste Solução -  HOST&lt;/p&gt;

@@ -1,0 +1,25 @@
+# !/bin/bash
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD1 "device | SSH" OK SOFT 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD2 "device | SSH" OK SOFT 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD3 "device | SSH" OK SOFT 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD4 "device | SSH" WARNING SOFT 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD5 "device | SSH" WARNING SOFT 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD6 "device | SSH" WARNING SOFT 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD7 "device | SSH" UNKNOWN SOFT 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD8 "device | SSH" UNKNOWN SOFT 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD9 "device | SSH" UNKNOWN SOFT 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD10 "device | SSH" CRITICAL SOFT 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD11 "device | SSH" CRITICAL SOFT 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD12 "device | SSH" CRITICAL SOFT 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD13 "device | SSH" OK HARD 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD14 "device | SSH" OK HARD 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD15 "device | SSH" OK HARD 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD16 "device | SSH" WARNING HARD 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD17 "device | SSH" WARNING HARD 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD18 "device | SSH" WARNING HARD 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD19 "device | SSH" UNKNOWN HARD 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD20 "device | SSH" UNKNOWN HARD 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD21 "device | SSH" UNKNOWN HARD 3
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD22 "device | SSH" CRITICAL HARD 1
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD23 "device | SSH" CRITICAL HARD 2
+/usr/bin/php /usr/local/nagios/etc/utils/nagios_send_service.php PAYLOAD24 "device | SSH" CRITICAL HARD 3

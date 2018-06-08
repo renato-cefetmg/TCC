@@ -1,0 +1,741 @@
+
+Message 1
+
+The server reported 38 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste01
+
+Message 2
+
+The server reported 37 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+type:	HOST
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste02
+
+Message 3
+
+The server reported 36 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+timestamp:	01/01/2015 – 09:32
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste03
+
+Message 4
+
+The server reported 35 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+timestamp:	01/01/2015 – 09:33
+type:	HOST
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste04
+
+Message 5
+
+The server reported 34 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste05
+
+Message 6
+
+The server reported 33 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device
+type:	HOST
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste06
+
+Message 7
+
+The server reported 32 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device
+timestamp:	01/01/2015 – 09:36
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste07
+
+Message 8
+
+The server reported 31 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device
+timestamp:	01/01/2015 – 09:36
+type:	HOST
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste08
+
+Message 9
+
+The server reported 30 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste09
+
+Message 10
+
+The server reported 29 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+type:	SERVICE
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste10
+
+Message 11
+
+The server reported 28 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+timestamp:	01/01/2015 – 09:40
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste11
+
+Message 12
+
+The server reported 27 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+timestamp:	01/01/2015 – 09:40
+type:	SERVICE
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste12
+
+Message 13
+
+The server reported 26 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device | SSH
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste13
+
+Message 14
+
+The server reported 25 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device | SSH
+type:	SERVICE
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste14
+
+Message 15
+
+The server reported 24 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device | SSH
+timestamp:	01/01/2015 – 09:44
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste15
+
+Message 16
+
+The server reported 23 messages remaining.
+Exchange 	(AMQP default)
+Routing Key 	glpi
+Redelivered 	○
+Properties 	
+delivery_mode:	1
+headers:	
+device_name:	device | SSH
+timestamp:	01/01/2015 – 09:44
+type:	SERVICE
+Payload
+7 bytes
+Encoding: string
+	
+
+Teste16
+
+Message 17
+
+The server reported 22 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:45
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD41
+
+Message 18
+
+The server reported 21 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:45
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD42
+
+Message 19
+
+The server reported 20 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD43
+
+Message 20
+
+The server reported 19 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD44
+
+Message 21
+
+The server reported 18 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD45
+
+Message 22
+
+The server reported 17 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD46
+
+Message 23
+
+The server reported 16 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD47
+
+Message 24
+
+The server reported 15 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:46
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD48
+
+Message 25
+
+The server reported 14 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD49
+
+Message 26
+
+The server reported 13 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD50
+
+Message 27
+
+The server reported 12 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD51
+
+Message 28
+
+The server reported 11 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD52
+
+Message 29
+
+The server reported 10 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD53
+
+Message 30
+
+The server reported 9 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD54
+
+Message 31
+
+The server reported 8 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:47
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD55
+
+Message 32
+
+The server reported 7 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:48
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD56
+
+Message 33
+
+The server reported 6 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:48
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD57
+
+Message 34
+
+The server reported 5 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:48
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD58
+
+Message 35
+
+The server reported 4 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:48
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD59
+
+Message 36
+
+The server reported 3 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device
+timestamp:	07/06/2018 - 18:36:48
+type:	HOST
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD60
+
+Message 37
+
+The server reported 2 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device | SSH
+timestamp:	07/06/2018 - 18:36:50
+type:	SERVICE
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD22
+
+Message 38
+
+The server reported 1 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device | SSH
+timestamp:	07/06/2018 - 18:36:51
+type:	SERVICE
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD23
+
+Message 39
+
+The server reported 0 messages remaining.
+Exchange 	nagios
+Routing Key 	
+Redelivered 	○
+Properties 	
+delivery_mode:	2
+headers:	
+device_name:	device | SSH
+timestamp:	07/06/2018 - 18:36:51
+type:	SERVICE
+content_type:	text/plain
+Payload
+9 bytes
+Encoding: string
+	
+
+PAYLOAD24
+
